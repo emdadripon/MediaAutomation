@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 public class Metro extends CommonAPI {
     @Test
     public void metroNews(){
+        System.out.println();
         MetroPage metroPage = PageFactory.initElements(driver, MetroPage.class);
         metroPage.metroPageNews();
     }
