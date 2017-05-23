@@ -9,13 +9,15 @@
         <module name="Generic" />
         <module name="NewYorkPost" />
         <module name="NewYorkTimes" />
+        <module name="W3Schools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Generic" target="1.5" />
-      <module name="Media" target="1.5" />
-      <module name="NewYorkPost" target="1.5" />
+      <module name="Generic" target="1.8" />
+      <module name="Media" target="1.8" />
+      <module name="NewYorkPost" target="1.8" />
       <module name="NewYorkTimes" target="1.5" />
+      <module name="W3Schools" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

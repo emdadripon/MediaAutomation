@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="W3School" duration-ms="7818" started-at="2017-05-21T05:31:22Z" finished-at="2017-05-21T05:31:30Z">
+    <groups>
+    </groups>
+    <test name="W3School" duration-ms="7818" started-at="2017-05-21T05:31:22Z" finished-at="2017-05-21T05:31:30Z">
+      <class name="TableData.ReadTableData">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TableData.ReadTableData@6bf256fa]" name="setUp" is-config="true" duration-ms="4386" started-at="2017-05-21T01:31:22Z" finished-at="2017-05-21T01:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.w3schools.com/sql/sql_select.asp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="headerVerification()[pri:0, instance:TableData.ReadTableData@6bf256fa]" name="headerVerification" duration-ms="219" started-at="2017-05-21T01:31:27Z" finished-at="2017-05-21T01:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerVerification -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TableData.ReadTableData@6bf256fa]" name="cleanUp" is-config="true" duration-ms="113" started-at="2017-05-21T01:31:27Z" finished-at="2017-05-21T01:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TableData.ReadTableData@6bf256fa]" name="setUp" is-config="true" duration-ms="2673" started-at="2017-05-21T01:31:27Z" finished-at="2017-05-21T01:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.w3schools.com/sql/sql_select.asp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readingTableCellData()[pri:0, instance:TableData.ReadTableData@6bf256fa]" name="readingTableCellData" duration-ms="318" started-at="2017-05-21T01:31:30Z" finished-at="2017-05-21T01:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingTableCellData -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TableData.ReadTableData@6bf256fa]" name="cleanUp" is-config="true" duration-ms="76" started-at="2017-05-21T01:31:30Z" finished-at="2017-05-21T01:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- TableData.ReadTableData -->
+    </test> <!-- W3School -->
+  </suite> <!-- W3School -->
+</testng-results>

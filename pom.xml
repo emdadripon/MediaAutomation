@@ -11,6 +11,7 @@
     <modules>
         <module>NewYorkTimes</module>
         <module>Generic</module>
+        <module>W3Schools</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -30,10 +31,33 @@
                 <version>6.11</version>
             </dependency>
             <dependency>
-                <groupId>com.aventstack</groupId>
+                <groupId>com.relevantcodes</groupId>
                 <artifactId>extentreports</artifactId>
-                <version>3.0.6</version>
+                <version>2.41.1</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>3.15</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
